@@ -36,12 +36,4 @@ else
   echo "teardown: .env.local not present"
 fi
 
-# ---------------------------------------------------------------------------
-# 3. Remove any vite cache directories
-# ---------------------------------------------------------------------------
-if [ -d "$WORKTREE_DIR/node_modules/.vite" ]; then
-  echo "teardown: removing .vite cache..."
-  rm -rf "$WORKTREE_DIR/node_modules/.vite"
-fi
-
 echo "teardown: complete"
