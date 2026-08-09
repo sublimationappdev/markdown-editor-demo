@@ -236,54 +236,6 @@
 }
 
 /* Starry Night syntax highlighting adjustments */
-.preview-content .pl-en {
-  color: #dcdcaa;
-}
-.preview-content .pl-c1 {
-  color: #4ec9b0;
-}
-.preview-content .pl-k {
-  color: #c586c0;
-}
-.preview-content .pl-s {
-  color: #ce9178;
-}
-.preview-content .pl-c {
-  color: #6a9955;
-}
-.preview-content .pl-pds {
-  color: #ce9178;
-}
-.preview-content .pl-v {
-  color: #9cdcfe;
-}
-.preview-content .pl-smi {
-  color: #9cdcfe;
-}
-
-/* Scrollbar styling */
-.preview-content::-webkit-scrollbar,
-.markdown-input::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-
-.preview-content::-webkit-scrollbar-track,
-.markdown-input::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.preview-content::-webkit-scrollbar-thumb,
-.markdown-input::-webkit-scrollbar-thumb {
-  background: #ccc;
-  border-radius: 4px;
-}
-
-.preview-content::-webkit-scrollbar-thumb:hover,
-.markdown-input::-webkit-scrollbar-thumb:hover {
-  background: #aaa;
-}
-
 /* Responsive */
 @media (max-width: 768px) {
   .editor-container {
