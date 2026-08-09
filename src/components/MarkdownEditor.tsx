@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import rehypeStarryNight from 'rehype-starry-night';
+import rehypeHighlight from 'rehype-highlight';
 import rehypeRaw from 'rehype-raw';
+import 'highlight.js/styles/github-dark.min.css';
 import './MarkdownEditor.css';
 
 const defaultMarkdown = `# react-markdown demo
@@ -129,7 +130,7 @@ export function MarkdownEditor() {
             <Markdown
               children={markdown}
               remarkPlugins={[remarkGfm]}
-              rehypePlugins={[rehypeStarryNight, rehypeRaw]}
+              rehypePlugins={[rehypeHighlight, rehypeRaw]}
             />
           </div>
         </div>
